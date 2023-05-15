@@ -1,0 +1,11 @@
+C:\Users\lessi\holbertonschool-csharp\csharp-hello_world\0-new_project\bin\Debug\netcoreapp2.1\0-new_project.deps.json
+C:\Users\lessi\holbertonschool-csharp\csharp-hello_world\0-new_project\bin\Debug\netcoreapp2.1\0-new_project.runtimeconfig.json
+C:\Users\lessi\holbertonschool-csharp\csharp-hello_world\0-new_project\bin\Debug\netcoreapp2.1\0-new_project.runtimeconfig.dev.json
+C:\Users\lessi\holbertonschool-csharp\csharp-hello_world\0-new_project\bin\Debug\netcoreapp2.1\0-new_project.dll
+C:\Users\lessi\holbertonschool-csharp\csharp-hello_world\0-new_project\bin\Debug\netcoreapp2.1\0-new_project.pdb
+C:\Users\lessi\holbertonschool-csharp\csharp-hello_world\0-new_project\obj\Debug\netcoreapp2.1\0-new_project.csprojAssemblyReference.cache
+C:\Users\lessi\holbertonschool-csharp\csharp-hello_world\0-new_project\obj\Debug\netcoreapp2.1\0-new_project.csproj.CoreCompileInputs.cache
+C:\Users\lessi\holbertonschool-csharp\csharp-hello_world\0-new_project\obj\Debug\netcoreapp2.1\0-new_project.AssemblyInfoInputs.cache
+C:\Users\lessi\holbertonschool-csharp\csharp-hello_world\0-new_project\obj\Debug\netcoreapp2.1\0-new_project.AssemblyInfo.cs
+C:\Users\lessi\holbertonschool-csharp\csharp-hello_world\0-new_project\obj\Debug\netcoreapp2.1\0-new_project.dll
+C:\Users\lessi\holbertonschool-csharp\csharp-hello_world\0-new_project\obj\Debug\netcoreapp2.1\0-new_project.pdb
