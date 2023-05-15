@@ -11,4 +11,3 @@ dotnet new console
 
 # Change back to the parent directory
 cd ..
-
