@@ -1,0 +1,21 @@
+# Build results
+**/obj/*
+**/bin/*
+
+# Visual Studio files
+.vs/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+
+# NuGet
+packages/
+
+# ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# JetBrains Rider
+.idea/
