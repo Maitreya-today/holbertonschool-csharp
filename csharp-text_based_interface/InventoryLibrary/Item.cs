@@ -1,58 +1,37 @@
 using System;
-using System.Collections.Generic;
 
-namespace InventoryLibrary
+
+//namespace InventoryLibrary
+//{
+/// <summary>
+/// This is the class used to create items.
+/// </summary>
+public class Item : BaseClass
 {
-    /// <summary> Item class </summary>
-    public class Item : BaseClass
+    public string name { get; set; }
+    public string description { get; set; }
+    public float price { get; set; }
+
+
+    /// <summary>
+    /// Class Constructor.
+    /// </summary>
+    /// <param name="name">Item Name.</param>
+    /// <param name="description">Item Description.</param>
+    /// <param name="price">Item Price.</param>
+    public Item(string name = "Default_Item_Name", string description = "Default_Item_Description", float price = 0.0f)
     {
-        string _name = "";
-        string _description = "";
-        float _price = 0.0f;
-        HashSet<string> _tags = new HashSet<string>();
-
-        /// <summary> Item name </summary>
-        public string name
-        {
-            get { return _name; }
-            set { _name = value; }
-        }
-
-        /// <summary> Item description </summary>
-        public string description
-        {
-            get { return _description; }
-            set { _description = value; }
-        }
-
-        /// <summary> Item price </summary>
-        public float price
-        {
-            get { return (float)Math.Round(_price, 2);}
-            set { _price = value; }
-        }
-
-        /// <summary> Item tags </summary>
-        public string[] tags
-        {
-            get {
-                if (_tags.Count == 0)
-                    return new string[0]; 
-                return new List<string>(_tags).ToArray(); 
-                }
-            set { _tags = new HashSet<string>(value); }
-        }
-
-
-        /// <summary> Item constructor </summary>
-        public Item(string name, string description = "", float price = 0.0f, string[] tags = null)
-        {
-            this.name = name;
-            this.description = description;
-            this.price = price;
-            if (tags != null)
-                foreach (string tag in tags)
-                    this._tags.Add(tag);
-        }
+        this.name = name;
+        this.description = description;
+        this.price = Convert.ToSingle(Math.Round(price, 2));
     }
+
+
+    public override string ToString()
+    {
+        string returnValue = $"Object: {this.GetType().Name}\nName: {this.name}\nId: {this.id}\nDescription: {this.description}\nPrice: {this.price}\nCreation Date: {this.date_created}\nUpdated Date: {this.date_updated}";
+        return (returnValue);
+    }
+
 }
+//}

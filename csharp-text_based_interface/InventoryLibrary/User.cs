@@ -1,25 +1,28 @@
 using System;
-using System.Collections.Generic;
 
-namespace InventoryLibrary
+//namespace InventoryLibrary
+//{
+/// <summary>
+/// This is the class used to create users.
+/// </summary>
+public class User : BaseClass
 {
-    /// <summary> User class </summary>
-    public class User : BaseClass
-    {
-        string _name = "user";
-        
-        ///<summary> User name </summary>
-        public string name
-        {
-            get { return _name; }
-            set { _name = value; }
-        }
+    public string name { get; set; }
 
-        ///<summary> User constructor </summary>
-        public User(string name)
-        {
-            if(name != null)
-                this.name = name;
-        }
+    /// <summary>
+    /// Class Constructor.
+    /// </summary>
+    /// <param name="name">User name.</param>
+    public User(string name = "Default_User_Name")
+    {
+        this.name = name;
     }
+
+    public override string ToString()
+    {
+        string returnValue = $"Object: {this.GetType().Name}\nName: {this.name}\nId: {this.id}\nCreation Date: {this.date_created}\nUpdated Date: {this.date_updated}";
+        return (returnValue);
+    }
+
 }
+//}
